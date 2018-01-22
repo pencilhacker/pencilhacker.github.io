@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+.co_logo{
+	border-bottom:1px solid rgba(0,0,0,.125);
+}
+
+body {
+    padding-top: 80px;
+    background-color: rgba(0,0,0) !important;
+    overflow-x: hidden;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 80px;
+    }
+}
+
+.card {
+    height: 100%;
+}
+
+.display-4{
+	font-size: 2rem !important;
+}
+
+.bg-white {
+    box-shadow: 0px -1px 10px #888888 !important;
+    }
+
+.m_top{
+	margin-top: 2em;
+}
+
+.vertical-center{
+	margin: auto;
+}
+
+.m_top p{
+	margin: 0em;
+}
+
+.text-pink{
+	color: #C76371;
+}
+
+.btn-primary{
+	background-color: #000 !important;
+    border: 2px solid #000 !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover{
+	background-color: #FFB32B !important;
+    border: 2px solid #FFB32B !important;
+    color: #000 !important;
+    cursor: hand;
+}
+
+.nav-link {
+	color: #C76371 !important;
+	opacity: 0.5;
+}
+
+
+#top-menu li.active a {
+    color: #C76371 !important;
+    opacity: 1;
+}
+
+.bg-yellow{
+	background-color: #FFB32B;
+}
+
+textarea{
+	padding: 0em;
+}
+
+#contact-form{
+	padding-left: 1em;
+}
+
+#contact-form input{
+	line-height: 2em;
+}
+
+#contact-form textarea{
+	line-height: 2em;
+	height: 8em;
+}
+
+.the_end{
+	background-color: #000 !important;
+	color: #fff;
+	line-height: 4em;
+	vertical-align: middle;
+}
+
+.the_end div{
+	vertical-align: middle;
+}
+
+#map {
+        height: 100%;
+        width: 100%;
+       }
