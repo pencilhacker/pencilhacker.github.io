@@ -1,465 +1,538 @@
 <!DOCTYPE html>
-<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
-<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
-<!--[if IE 8]><html class="preIE9"><![endif]-->
-<!--[if gte IE 9]><!-->
-<html lang="en"><!--<![endif]-->
+<html lang="en">
   <head>
     <meta charset="UTF-8">
   
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
     
-  <title>Pencil Hacker Portfolio</title>
+	<title>Pencil Hacker Folio</title>
   
-  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
   
-  <link rel="stylesheet" href="css/heroic-features.css">
-
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="css/customSlider.css" />
+	
+	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+	</noscript>
   
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-
-  <!--
-  <script type="text/javascript">
-   var _gaq = _gaq || [];
-   _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
-   _gaq.push(['_trackPageview']);
-   (function()
-   {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-   })();
-  </script>
-  -->
   </head>
 
 
   <body>
-      <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-      <div class="container">
-        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
-          <img class="img-responsive img-fluid" src="./images/logo.jpg" alt="logo"/>
-        </div>
-        <a class="navbar-brand" href="index.html">Pencil Hacker</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul id="top-menu" class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a id="button1" class="nav-link" href="#greetings">Portfolio
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a id="button2" class="nav-link" href="#tools">Tools</a>
-            </li>
-            <li class="nav-item">
-              <a id="button3" class="nav-link" href="#process">Process</a>
-            </li>
-            <li class="nav-item">
-              <a id="button4" class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<div class="layout">
+		
+		<!-- HEADER -->
+			<div class="header defineGrid" id="top-menu">
+				<div class="logo center">
+					<img src="./images/logo.jpg" alt="logo"/>
+				</div>
+				
+				<div class="logoName center">
+					<a href="index.html"><span class="bold">Pencil</span>Hacker</a>
+				</div>
+				
+				<div class="pages center">
+					<a href='#greetings' class='active'>Portfolio</a>
+					<a href='#technique'>Technique</a>
+					<a href='#tools'>Softwares</a>
+					<a href='#experience'>Experience</a>
+					<a href='#education'>Education</a>
+					<a href='#contact'>Collaborate</a>
+				</div>
+			</div>
+			
+		<!-- Section 1 -->
 
-    <!-- Page Content -->
-    <div class="container">
+			<div  id="greetings" class="wrapper defineGridSlider">
+			
+				<div class="container demo-1">
 
-      <!-- Jumbotron Header -->
-      <header class="jumbotron-fluid my-4">
-        <h1 class="display-4 text-pink" id="greetings">Greetings Human,</h1>
-        <p class="lead">An Interaction Designer I am, fascinated by science and technology - simulating virtual experiences and crafting digital products.<!--<br /> Documented below is my work with organisations and personal projects.--></p>
-       <!--<a href="#" class="btn btn-primary btn-lg">Call me maybe</a>-->
-      </header>
+					<div id="slider" class="sl-slider-wrapper">
 
-      <!-- Page Features -->
-      <div class="row text-center">
+						<div class="sl-slider">
+						
+							<div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+									<!-- <div class="deco" data-icon="H"></div> -->
+								<div class="sl-slide-inner">
+									<h2>Fab - Webby 2016</h2>
+									<blockquote>
+										<p>Fab is a curated marketplace that sells exclusive goods by collaborating with Makers. Their main channels are Web and iOS.</p>
+										<cite>UX Research, UI Design, & Graphic Design</cite>
+									</blockquote>
+								</div>
+							</div>
+							
+							<div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+								<div class="sl-slide-inner">
+									<!-- <div class="deco" data-icon="q"></div> -->
+									<h2>Change - B.M.T.C.</h2>
+									<blockquote>
+										<p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p>
+										<cite>Research, Design Thinking, Graphic Design & UI Design</cite>
+									</blockquote>
+								</div>
+							</div>
+							
+							<div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+								<div class="sl-slide-inner">
+									<!-- <div class="deco" data-icon="O"></div> -->
+									<h2>Support Cane for the Blind</h2>
+									<blockquote>
+										<p>Using electronics, computer vision and artificial intelligence to solve basic issues faced by the visually impaired in recognising objects and detecting obstacles in closed or crowded spaces.</p>
+										<cite>Rapid Prototyping, Physical Computing & Computer Vision</cite>
+									</blockquote>
+								</div>
+							</div>
+							
+							<div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+								<div class="sl-slide-inner">
+									<!-- <div class="deco" data-icon="I"></div> -->
+									<h2>The Instrument</h2>
+									<blockquote>
+										<p>Replicating the Theremin using eletronics to create 8 bit music with gestures.</p>
+										<cite>Rapid Prototyping, Physical Computing & Product Design</cite>
+									</blockquote>
+								</div>
+							</div>
+							
+							<div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+								<div class="sl-slide-inner">
+									<!-- <div class="deco" data-icon="t"></div> -->
+									<h2>Antariksh Ventures</h2>
+									<blockquote>
+										<p>The company's primary focus is building minimalistic modern Smart phone powered solutions for citizens / consumers.</p>
+										<cite>Research, Branding, UX / UI Design & Print</cite>
+									</blockquote>
+								</div>
+							</div>
+						</div><!-- /sl-slider -->
+						
+						<nav id="nav-arrows" class="nav-arrows">
+							<span class="nav-arrow-prev">Previous</span>
+							<span class="nav-arrow-next">Next</span>
+						</nav>
 
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/antariksh.png" alt="antariksh">
-            <div class="card-body">
-              <h4 class="card-title">Antariksh</h4>
-              <p class="card-text">A smart city startup, building minimalistic and critical smart phone solutions. </p>
-            </div>
-            <div class="card-footer">
-              <a href="antariksh.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
+						<nav id="nav-dots" class="nav-dots">
+							<span class="nav-dot-current"></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</nav>
 
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/nid.png" alt="antariksh">
-            <div class="card-body">
-              <h4 class="card-title">NID - B</h4>
-              <p class="card-text">M.Des. Interaction Design portfolio at National Institute of Design - Bangalore.</p>
-            </div>
-            <div class="card-footer">
-              <a href="antariksh.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
+					</div><!-- /slider-wrapper -->
+				</div>
+			</div>
+			
+			<!-- <div class="section heading"> -->
+					<!-- <h1 id="greetings">Greetings Human,</h1> -->
+					<!-- <p>as an Interaction Designer I am, fascinated by science and technology - simulating virtual experiences and crafting digital products.</p> -->
+				<!-- </div> -->
+				
+				<!-- <div class="proj ryobi alignCenter pTile"> -->
+					<!-- <img class="tileImage" src="./images/ryobi.png" alt="Ryobi app"> -->
+				<!-- </div> -->
 
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/fab.png" alt="fab">
-            <div class="card-body">
-              <h4 class="card-title">Fab</h4>
-              <p class="card-text">Discover products by artists and designers that bring personality to your life.</p>
-            </div>
-            <div class="card-footer">
-              <a href="fab.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
+				<!-- <div class="proj fabProject alignCenter pTile"> -->
+					<!-- <img class="tileImage" src="./images/fabProject.jpg" alt="Fab iOS app"> -->
+				<!-- </div> -->
+				
+				<!-- <div class="proj antFolio alignCenter pTile"> -->
+					<!-- <img class="tileImage" src="./images/antarikshFull.png" alt="Antariksh Ventures"> -->
+				<!-- </div> -->
 
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/xcube.png" alt="[x]cube LABS">
-            <div class="card-body">
-              <h4 class="card-title">[x]cube Labs</h4>
-              <p class="card-text">Digital innovation and consulting services for internet based challenges.</p>
-            </div>
-            <div class="card-footer">
-              <a href="xcube.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
+				<!-- <div class="proj wvFolio alignCenter pTile"> -->
+					<!-- <img class="tileImage" src="./images/wasteVentures.png" alt="Waste Ventures"> -->
+				<!-- </div> -->
 
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/uni.png" alt="Univariety">
-            <div class="card-body">
-              <h4 class="card-title">Univariety</h4>
-              <p class="card-text">Student centric college admissions to  bag dream universities and scholarships.</p>
-            </div>
-            <div class="card-footer">
-              <a href="uni.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
+				<!-- <div class="proj dream11 alignCenter pTile"> -->
+					<!-- <img class="tileImage" src="./images/dream11.png" alt="Dream 11"> -->
+				<!-- </div> -->
 
-      </div>
-      <!-- /.row -->
+				<!-- <div class="proj bmtc alignCenter pTile"> -->
+					<!-- <img class="tileImage" src="./images/bmtc.png" alt="BMTC bus study"> -->
+				<!-- </div> -->
+				
+				<!-- <div class="proj instrument alignCenter pTile"> -->
+					<!-- <img class="tileImage" src="./images/instrument.png" alt="Ultrasonic Theremin"> -->
+				<!-- </div> -->
 
-      <!-- Jumbotron Header -->
-      <header class="jumbotron-fluid my-4" id="tools">
-        
-        <h1 class="display-4 text-pink" id="tools">Tools,</h1>
-        <p class="lead">My arsenal comprises of the following softwares to organise, communicate, visualise ideas and build prototypes.</p>
+				<!-- <div class="proj dripthat alignCenter pTile"> -->
+					<!-- <img class="tileImage" src="./images/dripthat.png" alt="Dripthat app photo sharing"> -->
+				<!-- </div> -->
+				<!-- <div class="proj instasense alignCenter pTile"> -->
+					<!-- <img class="tileImage" src="./images/instasense.png" alt="Project 1"> -->
+				<!-- </div> -->
+				
+				<!-- <input class ="viewButton" type="submit" value="View More Projects"> -->
+				
+			<!-- </div> -->
+			
+		<!-- Section 2 -->			
+			<div class="wrapper defineGrid">
+				<div class="section heading mTop">
+					<h1 id="technique">My technique,</h1>
+					<p>involves research, finding insights, identifying personas - building scenarios, developing concepts and testing models.</p>
+				</div>
 
-      <div class="row">
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/ai.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Illustrator</p>
-          </div>
-        </div>
+				
+				<!-- <div class="interaction"> -->
+				  <!-- <p>Interaction Design</p> -->
+				<!-- </div> -->
 
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/ps.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Photoshop</p>
-          </div>
-        </div>
+				<!-- <div class="interface"> -->
+				  <!-- <p>Interface Design</p> -->
+				<!-- </div> -->
 
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/xd.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Experience Design</p>
-          </div>
-        </div>
-      
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/id.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">InDesign</p>
-          </div>
-        </div>
+				<div class="company research unit1 alignCenter mTile">
+					<img class="tileImage" src="./images/research.png" alt="research">
+					<h2>Research</h2>
+					<p>Question the existing, find answers and insights into current problems. </p>
+				</div>
+		
+				<div class="company insights unit2 alignCenter mTile">
+					<img class="tileImage" src="./images/ideate.png" alt="ideate">
+					<h2>Insights</h2>
+					<p>Identify needs and address motivations to create concepts.</p>
+				</div>
+				
+				<div class="company prototype unit3 alignCenter mTile">
+					<img class="tileImage" src="./images/build.png" alt="prototype">
+					<h2>Prototype</h2>
+					<p>Identify scope and milestones, design and prototype solutions.</p>
+				</div>
+				
+				<div class="company validate unit4 alignCenter mTile">
+					<img class="tileImage" src="./images/test.png" alt="validate">
+					<h2>Validate</h4>
+					<p>Use data to quantify and reiterate to make better products.</p>
+				</div>
+			</div>
+			
+		<!-- Section 3 -->
+			<div class="wrapper defineGrid">
+				<div class="section heading mTop">
+					<h1 id="tools">Digital toolkit,</h1>
+					<p>my arsenal comprises of the following softwares to organise, communicate, visualise ideas and build prototypes.</p>
+				</div>
+				
+				<div class="unit1">
+					<h3>Adobe CC</h3>
+				</div>
+				
+				<div class="illustrator logo">
+					<img class="software" src="./images/ai.png"/>
+				</div>
+				  
+				<div class="photoshop logo">
+					<img class="software" src="./images/ps.png"/>
+				</div>
+				
+				
+				<div class="xd logo">
+					<img class="software" src="./images/xd.png"/>
+				</div>
+				
+				<div class="indesign logo">
+					<img class="software" src="./images/id.png"/>
+				</div>
+				
+				<div class="ae logo">
+					<img class="software" src="./images/ae.png"/>
+				</div>
+				
+				<div class="lightroom logo">
+					<img class="software" src="./images/lr.png"/>
+				</div>
+			
+				<div class="unit1">
+					<h3>Visual Design</h3>
+				</div>
+				
+				<div class="sketch logo">
+					<img class="software" src="./images/sk.png"/>
+				</div>
 
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/ae.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">After Effects</p>
-          </div>
-        </div>
+				<div class="in logo">
+					<img class="in" src="./images/in.png"/>
+				</div>
+				
+				<div class="unit1">
+					<h3>Office Essentials</h3>
+				</div>
 
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/lr.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Lightroom</p>
-          </div>
-        </div>
+				<div class="trello logo">
+					<img class="software" src="./images/tr.png"/>
+				</div>
+				
+				<div class="slack logo">
+					<img class="software" src="./images/sl.png"/>
+				</div>
 
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/ht.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">HTML 5</p>
-          </div>
-        </div>
+				<div class="office logo">
+					<img class="software" src="./images/office.png"/>
+				</div>
+				
+				<div class="gsuite logo">
+					<img class="software" src="./images/gsuite.png"/>
+				</div>
+				
+				<div class="unit1">
+					<h3>Web Development</h3>
+				</div>
+				
+				<div class="html logo">
+					<img class="software" src="./images/ht.png"/>
+				</div>
+				
+				<div class="css logo">
+					<img class="software" src="./images/cs.png"/>
+				</div>
+				
+				<div class="javascript logo">
+					<img class="software" src="./images/js.png"/>
+				</div>
+				
+				<div class="bootstrap logo">
+					<img class="software" src="./images/bootstrap.png"/>
+				</div>
+				
+				<div class="unit1">
+					<h3>Product Development</h3>
+				</div>				
+				
+				<div class="vs logo">
+					<img class="software" src="./images/vs.png"/>
+				</div>
+				
+				<div class="unity logo">
+					<img class="software" src="./images/unity.png"/>
+				</div>
+				
+				<div class="github logo">
+					<img class="software" src="./images/github.png"/>
+				</div>
+				
+				<!-- <div class="unit1"> -->
+					<!-- <h3>Physical Computing</h3> -->
+				<!-- </div> -->
+				
+				<div class="arduino logo">
+					<img class="software" src="./images/arduino.png"/>
+				</div>
+				
+				<div class="pi logo">
+					<img class="software" src="./images/pi.png"/>
+				</div>
+			</div>
 
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/cs.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">CSS 3</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/js.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Javascript</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/sk.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Sketch</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/tr.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Trello</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/sl.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Slack</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/bootstrap.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Bootstrap</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/arduino.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Arduino</p>
-          </div>
-        </div>
-
-<!--        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/sl.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Premiere</p>
-          </div>
-        </div>
--->
-
-      </div>
-       <!--<a href="#" class="btn btn-primary btn-lg">Call me maybe</a>-->
-      </header>
-
-      <header class="jumbotron-fluid my-4">
-        <h1 class="m_top display-4 text-pink" id="process">Design process,</h1>
-        <p class="lead">Involves research, finding insights, identifying personas - building scenarios, developing concepts and testing models.</p>
-       <!--<a href="#" class="btn btn-primary btn-lg">Call me maybe</a>-->
-       <div class="row text-center">
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/research.png" alt="antariksh">
-            <div class="card-body">
-              <h4 class="card-title">Research</h4>
-              <p class="card-text">Question the existing, find answers and insights into current problems. </p>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/ideate.png" alt="antariksh">
-            <div class="card-body">
-              <h4 class="card-title">Ideate</h4>
-              <p class="card-text">Identify needs, address motivations and goals of users to create concepts.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/build.png" alt="fab">
-            <div class="card-body">
-              <h4 class="card-title">Create</h4>
-              <p class="card-text">Identify scope and milestones, find challenges and prototype solutions.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/test.png" alt="[x]cube LABS">
-            <div class="card-body">
-              <h4 class="card-title">Test</h4>
-              <p class="card-text">Use data to quantify solutions and reiterate to make better experiences.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-12 mb-4">
-          <p class="lead card text-center vertical-center">Interaction Design</p>
-        </div>
-
-        <div class="col-lg-6 col-md-12 mb-4">
-          <p class="lead card text-center">Interface Design</p>
-        </div>
-
-      </header>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-3 bg-yellow m_top">
-
-      <div class="container" id="contact">
-
-        <header class="jumbotron-fluid my-4">
-          <h1 class="m_top display-4" id="greetings">Looking for new challenges,</h1>
-          <p class="lead">I enjoy collaborating with artists, programmers, designers and corporations to build engaging and versatile products.</p><br/>
-            <form id="contact-form">
-              <div class="row">
-                <div class="row col-lg-4">
-                  <input class="col-lg-12" type="text" name="your-name" id="your-name" minlength="3" placeholder="Full name" required>
-                  <input  class="col-lg-12 m_top" type="email" name="your-email" id="email" placeholder="Email Address" required>
-                  <textarea class="col-lg-12 m_top" name="your-message" id="your-message" placeholder="Message for me" class="expanding" required></textarea>
-                  <button class="col-lg-12 m_top btn btn-primary btn-block btn-pink" type="submit">
-                    <small>send</small>
-                  </button>
-                </div>
-                <div class=" col-lg-8">
-                    <div id="map"></div>
-                  <img class="col-lg-12" src="">
-                </div>
-              </div>
-            </form>
-        </header>
-      </div>
-
-    </footer>
-
-      <div class="row the_end">
-        <div class="container">
-            <div class="row col-lg-12">
-              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p class="m-0 text-center">Copyright &copy; Pencil Hacker 2015</p>
-              </div>
-
-              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p class="m-0 text-center">pencilhacker@gmail.com</p>
-              </div>
-
-              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p class="m-0 text-center">
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                  <i class="material-icons md-18">face</i>
-                  <i class="material-icons md-18">face</i>
-                  <i class="material-icons md-18">face</i>
-                </p>
-              </div>
-            </div>
+		<!-- Section 4 -->		
+			<div class="wrapper defineGrid mTop">
+				<div class="section heading">
+					<h1 id="experience">Experience,</h1>
+					<p>in handling - business critical projects related to electronic prototypes, branding, print, websites, games and mobile apps.</p>
+				</div>
+	
+				<div class="talk company unit1 alignCenter mTile">
+					<img class="tileImage" src="./images/research.png" alt="talk">
+					<h2>Get in touch</h4>
+					<p>.</p>
+				</div>
+				
+				<div class="antariksh company unit2 alignCenter mTile">
+					<img class="tileImage" src="./images/antariksh.png" alt="antariksh">
+					<h2>Antariksh</h4>
+					<p>A smart city startup, building minimal and critical smart phone solutions. </p>
+				</div>
+					
+				<div class="fab company unit3 alignCenter mTile">
+					<img class="tileImage" src="./images/fab.png" alt="fab">
+					<h2>Fab</h4>
+					<p>Discover curated exclusive products that bring personality to your life.</p>
+				</div>
+				
+				<div class="xcube company unit4 alignCenter mTile">
+					<img class="tileImage" src="./images/xcube.png" alt="[x]cube LABS">
+					<h2>[x]cube Labs</h4>
+					<p>Digital innovation and consulting services for Internet based challenges.</p>
+				</div>
+				
+				<div class="univariety company unit1 alignCenter mTile">
+					<img class="tileImage" src="./images/uni.png" alt="Univariety">
+					<h2>Univariety</h4>
+					<p>Student centric college admissions to bag that dream university.</p>
+				</div>
+				
+				<div class="adp company unit2 alignCenter mTile">
+					<img class="tileImage" src="./images/adp.png" alt="Univariety">
+					<h2>A.D.P.</h4>
+					<p>Mainframe Engineer, Tax Domain / Graphic and Digital Design for MF-SIG.</p>
+				</div>
+			</div>
 
 
-        </div>
-      </div>
+			<!--Section 5-->		
+			<div class="wrapper defineGrid mTop pBot">
+				<div class="section heading">
+					<h1 id="education">Education,</h1>
+					<p>is a never ending process - multi-disciplinary learning, books, graphic novels, magazines and DIY hacks keep me occupied.</p>
+				</div>
+				
+				<div class="nid company unit1 alignCenter mTile">
+					<img class="tileImage" src="./images/nid.png" alt="antariksh">
+					<h2>NID - B</h4>
+					<p>M.Des. Interaction Design portfolio at National Institute of Design - Bangalore.</p>
+				</div>
+				
+				<div class="btech company unit2 alignCenter mTile">
+					<img class="tileImage" src="./images/jcet.png" alt="Univariety">
+					<h2>J.C.E.T.</h2>
+					<p>B.Tech. Electronics and Telecommunications Engineering - 2011 - 78%.</p>
+				</div>
+			</div>
 
-<!--<div class="container">
-
-
-C76371
-
-FFB32B
-      <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-2">
-          <img class="img-responsive img-fluid" src="./images/logo.jpg" alt="logo"/>
-        </div>
-
-        <div class="align-self-center col-lg-8 col-md-8 col-sm-8">
-          <h1>Pencil Hacker</h1>
-        </div>  
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 xol-xs-12">
-          <p>I am an Interaction designer with a flair for analysing, conceptualising and prototyping enjoyable digital experiences.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div><p>Strategise & Research</p></div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div><p>Information Architecture</p></div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div><p>Creative Coding</p></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><button type="button" class="btn btn-primary">Test</button></div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><button type="button" class="btn btn-secondary">Test</button></div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><button type="button" class="btn btn-success">Test</button></div>
-      </div>
-
-    </div>-->
-  	
-    <!-- Bootstrap core JavaScript -->
-    <!-- Bootstrap core JavaScript -->
+			<div class="black wrapper defineGrid mTop">
+		<!-- Section 6 -->		
+				<div class="section headingInverse">
+					<h1 id="contact">Looking to collaborate?</h1>
+					<p>I enjoy working with inspiring individuals and corporations to build robust and versatile products. Send me an Email.</p>
+				</div>
+				
+				<form class="emailForm">
+					<!-- Name<br> -->
+					<input class="field" type="text" name="Full Name" placeholder="Your Name"><br>
+					<!-- Subject<br> -->
+					<input class ="field" type="text" name="Subject" placeholder="Subject">
+					<!-- Message<br> -->
+					<textarea class ="message" type="text" name="Message" placeholder="Message for me..."></textarea>
+					<input class ="submitButton" type="submit" value="Submit">
+				</form>
+				
+		        <!-- <div class="map" id="map"></div> -->
+				
+				<div class="unit7 alignCenter">
+					<img class="tileImage" src="./images/profile.jpg" alt="Profile Picture">
+				</div>
+			</div>
+			
+			<div class="footer defineGrid">
+				<div class="copyright">
+					<p>Copyright &copy; Pencil Hacker 2015</p>
+				</div>
+				
+				<div class="email">
+					<p>pencilhacker@gmail.com</p>
+				</div>
+				
+				<div class="links">
+					<a class="linkedin" href="index.html"><i class="fa fa-linkedin fa-lg"></i></a>
+					<a class="behance" href="index.html"><i class="fa fa-behance fa-lg"></i></a>
+					<a class="instagram" href="index.html"><i class="fa fa-instagram fa-lg"></i></a>
+					<a class="github" href="index.html"><i class="fa fa-github fa-lg"></i></a>
+					<a class="dribbble" href="index.html"><i class="fa fa-dribbble fa-lg"></i></a>
+					<a class="twitter" href="index.html"><i class="fa fa-twitter fa-lg"></i></a>
+				</div>
+			</div>
+			
+			<!-- 	C76371		FFB32B -->
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+			
+				var Page = (function() {
 
+					var $navArrows = $( '#nav-arrows' ),
+						$nav = $( '#nav-dots > span' ),
+						slitslider = $( '#slider' ).slitslider( {
+							onBeforeChange : function( slide, pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':last' ).on( 'click', function() {
+
+								slitslider.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':first' ).on( 'click', function() {
+								
+								slitslider.previous();
+								return false;
+
+							} );
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slitslider.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slitslider.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+				/**
+				 * Notes: 
+				 * 
+				 * example how to add items:
+				 */
+
+				/*
+				
+				var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+				
+				// call the plugin's add method
+				ss.add($items);
+
+				*/
+			
+			});
+		</script>
+	
     <script type="text/javascript">
 
 // Auto resize input
@@ -531,18 +604,26 @@ console.clear();
   
 })();
 
-
-
-
-
-
     </script>
 
+<script>
+		$(document).on("scroll", function(){
+		if
+      ($(document).scrollTop() > 50){
+		  $("#headShrink").addClass("shrink");
+		}
+		else
+		{
+			$("#headShrink").removeClass("shrink");
+		}
+	});
+</script>
+	
 <script type="text/javascript">
   // Cache selectors
 var lastId,
     topMenu = $("#top-menu"),
-    topMenuHeight = topMenu.outerHeight()+65,
+    topMenuHeight = topMenu.outerHeight(),
     // All list items
     menuItems = topMenu.find("a"),
     // Anchors corresponding to menu items
@@ -577,30 +658,33 @@ $(window).scroll(function(){
    var id = cur && cur.length ? cur[0].id : "";
    
    if (lastId !== id) {
-       lastId = id;
        // Set/remove active class
-       menuItems
-         .parent().removeClass("active")
-         .end().filter("[href='#"+id+"']").parent().addClass("active");
+		menuItems.removeClass("active").end();
+		
+		menuItems.filter("[href='#"+id+"']").addClass("active").end();
    }                   
 });
 </script>
 
-    <script>
-      function initMap() {
-        var uluru = {lat: 13.0347357, lng: 77.5323664};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfGkibKCyNI9SGaP70RJDmjkz77bHnNV8&callback=initMap">
-    </script>
+    <!-- <script> -->
+      <!-- function initMap() { -->
+        <!-- var uluru = {lat: 13.0347357, lng: 77.5323664}; -->
+        <!-- var map = new google.maps.Map(document.getElementById('map'), { -->
+          <!-- zoom: 16, -->
+          <!-- center: uluru -->
+        <!-- }); -->
+        <!-- var marker = new google.maps.Marker({ -->
+          <!-- position: uluru, -->
+          <!-- map: map -->
+        <!-- }); -->
+      <!-- } -->
+    <!-- </script> -->
+    <!-- <script async defer -->
+    <!-- src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfGkibKCyNI9SGaP70RJDmjkz77bHnNV8&callback=initMap"> -->
+    <!-- </script> -->
+	
+	<script type="text/javascript" src="http://expansionscollective.com/testscripts/jquery.fullPage.js"></script>
+	<script> $(document).ready(function() { $('#fullpage').fullpage(); });</script>
+	
   </body>
 </html>
