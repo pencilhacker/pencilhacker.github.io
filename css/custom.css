@@ -247,10 +247,6 @@ h3{
 	grid-column: 1 / -1;
 }
 
-.talk{
-	border-top: #FFB32B 2px solid;
-}
-
 .antariksh{
 	border-top: black 2px solid;
 }
@@ -272,12 +268,24 @@ h3{
 	grid-column: 9 / span 2;
 }
 
+.talk{
+	border-top: #FFB32B 2px solid;
+}
+
 .nid{
 	border-top: black 2px solid;
 }
 
 .btech{
-	border-top: black 2px solid;
+	border-top: #6c682b 2px solid;
+}
+
+.delta{
+	border-top: #36499f 2px solid;
+}
+
+.hps{
+	border-top: #4e5a93 2px solid;
 }
 
 .tileImage{
