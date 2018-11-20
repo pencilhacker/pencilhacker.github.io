@@ -5,8 +5,29 @@
    768-480     - tablet 
    480-less    - phone landscape & smaller
 --------------------------------------------*/
-@media all and (min-width: 1024px) and (max-width: 1440px) { 
+@media all and (min-width: 1440px)
+{
 
+.heading p{
+	font-size: 1.5em !important;
+	line-height: 2em !important;
+	margin-top: 0px !important;
+}
+
+}
+
+@media all and (min-width: 1024px) /*and (max-width: 1440px)*/ { 
+.layout{
+	max-width: 1440px;
+}
+
+.heading{
+	max-width: 100wv;
+}
+
+.linkedin{
+	grid-column: 12/-1;
+}
 
 .logoName{
 	grid-column: 2 / span 2;
@@ -37,7 +58,7 @@
 }
 
 .homeText{
-	padding: 20px;
+	padding-left: 20px;
 }
 
 .homeText p, h1{
@@ -107,7 +128,7 @@
 }
 
 .homeText{
-	padding: 20px;
+	padding-left: 20px;
 }
 
 .homeText p, h1{
