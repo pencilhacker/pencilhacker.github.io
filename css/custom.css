@@ -9,6 +9,7 @@ body{
 	padding-top: 100px;
 	margin: 0px;
 	background-color: #fafafa !important;
+	overflow-x: hidden;
 }
 
 div.company{
